@@ -1,0 +1,12 @@
+
+#Jogo{
+
+width: 200px;
+height:500px;
+text-align: center;
+text-decoration-style: solid;
+background: url(ringue.png) center;
+font-size: 20px;
+color: #00ff00;
+
+}

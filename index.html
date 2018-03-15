@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Jogo de Luta</title>
+  </head>
+  <body>
+  <div id="Jogo">
+<h1>{{ vida }}<input type="text" name="" value="100"></h1><br><br>
+<h1>{{ vida1 }}<input type="text" name="" value="100"></h1><br>
+<button type="button" v-on:click="vida1()">Atacar</button>
+<button type="button" v-on:click="Vida()">Curar</button><br>
+<button type="button" v-on:click="reset()">Recomeçar</button>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <script>
+
+    var app = new Vue({
+    el: "#Jogo",
+    data:{
+      vida: "Vida do Jogador:",
+      vida1: "Vida do Oponente:",
+      valor:"0"
+
+},
+methods:{
+
+},
+computed:{
+
+}
+});
+
+
+    </script>
+
+  </body>
+</html>
